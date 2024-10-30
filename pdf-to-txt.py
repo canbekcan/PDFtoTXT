@@ -1,9 +1,7 @@
 import os
-print(os.__version__)
 import camelot
 print(camelot.__version__)
 from pdfminer.high_level import extract_text
-print(extract_text().__version__)
 
 
 def extract_tables_and_text(pdf_path, txt_path, csv_folder):
